@@ -14,7 +14,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3095", 
       "updated_at": "2018-04-17T18:11:13.404Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -55,7 +59,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2400", 
       "updated_at": "2018-04-17T18:11:12.467Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -96,7 +104,11 @@ $json = <<<EOD
       "phone_number": "(510) 642-7361", 
       "updated_at": "2018-04-17T18:11:12.485Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -137,7 +149,11 @@ $json = <<<EOD
       "phone_number": "(510)642-1437", 
       "updated_at": "2018-04-17T18:11:12.493Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -178,7 +194,11 @@ $json = <<<EOD
       "phone_number": "(510)642-6481", 
       "updated_at": "2018-04-17T18:11:12.502Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -219,7 +239,11 @@ $json = <<<EOD
       "phone_number": "(510)642-0621", 
       "updated_at": "2018-04-17T18:11:12.510Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -260,7 +284,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2531", 
       "updated_at": "2018-04-17T18:11:12.517Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -301,7 +329,11 @@ $json = <<<EOD
       "phone_number": "(510)642-0400", 
       "updated_at": "2018-04-17T18:11:12.525Z",
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ], 
       "weekly_by_appointment": [
         false, 
@@ -342,7 +374,11 @@ $json = <<<EOD
       "phone_number": "(510) 642-2367", 
       "updated_at": "2018-04-17T18:11:12.533Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -383,7 +419,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3439", 
       "updated_at": "2018-04-17T18:11:12.541Z",
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ], 
       "weekly_by_appointment": [
         false, 
@@ -424,7 +464,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3753", 
       "updated_at": "2018-04-17T18:11:12.549Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -465,7 +509,11 @@ $json = <<<EOD
       "phone_number": "(510)643-7427", 
       "updated_at": "2018-04-17T18:11:12.555Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -506,7 +554,7 @@ $json = <<<EOD
       "phone_number": "(510)642-6657", 
       "updated_at": "2018-04-17T18:11:12.562Z", 
       "attributes": [
-	   	
+        "utilities: printer"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -547,7 +595,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2997", 
       "updated_at": "2018-04-17T18:11:12.569Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -588,7 +640,8 @@ $json = <<<EOD
       "phone_number": "(510)642-2556", 
       "updated_at": "2018-04-17T18:11:12.576Z", 
       "attributes": [
-	   	
+        "room",
+        "utilities: laptops"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -629,7 +682,9 @@ $json = <<<EOD
       "phone_number": "(510)642-3366", 
       "updated_at": "2018-04-17T18:11:12.584Z", 
       "attributes": [
-	   	
+        "nap",
+        "room",
+        "utilities: desktops"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -670,7 +725,11 @@ $json = <<<EOD
       "phone_number": "(510) 643-7421", 
       "updated_at": "2018-04-17T18:11:12.591Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -711,7 +770,11 @@ $json = <<<EOD
       "phone_number": "(510)643-1234", 
       "updated_at": "2018-04-17T18:11:12.598Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -752,7 +815,11 @@ $json = <<<EOD
       "phone_number": "(510)642-4481", 
       "updated_at": "2018-04-17T18:11:12.605Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -793,7 +860,11 @@ $json = <<<EOD
       "phone_number": "(510)649-2500", 
       "updated_at": "2018-04-17T18:11:12.613Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -834,7 +905,11 @@ $json = <<<EOD
       "phone_number": "(510)642-1705", 
       "updated_at": "2018-04-17T18:11:13.258Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         true, 
@@ -875,7 +950,11 @@ $json = <<<EOD
       "phone_number": "(510)642-1472", 
       "updated_at": "2018-04-17T18:11:13.265Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -916,7 +995,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3604", 
       "updated_at": "2018-04-17T18:11:13.273Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -957,7 +1040,11 @@ $json = <<<EOD
       "phone_number": "(510)642-7365", 
       "updated_at": "2018-04-17T18:11:13.282Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -998,7 +1085,8 @@ $json = <<<EOD
       "phone_number": "", 
       "updated_at": "2018-04-17T18:11:13.290Z", 
       "attributes": [
-	   	
+        "room",
+        "utilities: laptops, projectors, printer"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1039,7 +1127,11 @@ $json = <<<EOD
       "phone_number": "(510) 642-6480", 
       "updated_at": "2018-04-17T18:11:13.300Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         true, 
@@ -1080,7 +1172,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3381", 
       "updated_at": "2018-04-17T18:11:13.308Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1121,7 +1217,11 @@ $json = <<<EOD
       "phone_number": "(510)642-8197", 
       "updated_at": "2018-04-17T18:11:13.315Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1207,7 +1307,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3671", 
       "updated_at": "2018-04-17T18:11:13.335Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1248,7 +1352,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2623", 
       "updated_at": "2018-04-17T18:11:13.341Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1289,7 +1397,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2975", 
       "updated_at": "2018-04-17T18:11:13.348Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1330,7 +1442,11 @@ $json = <<<EOD
       "phone_number": "(510)232-7767", 
       "updated_at": "2018-04-17T18:11:13.354Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1371,7 +1487,11 @@ $json = <<<EOD
       "phone_number": "(510)642-1020", 
       "updated_at": "2018-04-17T18:11:13.360Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1412,7 +1532,11 @@ $json = <<<EOD
       "phone_number": "(510)665-3419", 
       "updated_at": "2018-04-17T18:11:13.366Z",
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ], 
       "weekly_by_appointment": [
         false, 
@@ -1453,7 +1577,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3122", 
       "updated_at": "2018-04-17T18:11:13.372Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1494,7 +1622,11 @@ $json = <<<EOD
       "phone_number": "(510)642-3403", 
       "updated_at": "2018-04-17T18:11:13.378Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1535,7 +1667,11 @@ $json = <<<EOD
       "phone_number": "(510)642-2511", 
       "updated_at": "2018-04-17T18:11:13.384Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1576,7 +1712,11 @@ $json = <<<EOD
       "phone_number": "(510) 643-1211", 
       "updated_at": "2018-04-17T18:11:13.391Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1617,7 +1757,11 @@ $json = <<<EOD
       "phone_number": "(510)642-4432", 
       "updated_at": "2018-04-17T18:11:13.397Z", 
       "attributes": [
-	   	
+        "food",
+        "nap",
+        "room",
+        "noise"
+        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
