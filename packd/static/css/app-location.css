@@ -1,0 +1,149 @@
+.app-space {
+  width:800px;
+  max-width:100%;
+  margin:auto;
+  margin-bottom:50px;
+}
+
+.location-image {
+  position:absolute;
+  width:800px;
+  max-width:100%;
+  height:250px;
+}
+
+.location-percentage {
+  height:250px;
+  width:100%;
+  background-color:gray;
+  background: -webkit-linear-gradient(rgba(0,14,110,1), rgba(0,14,110,0.3));/* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,14,110,1), rgba(0,14,110,0.3));/* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,14,110,1), rgba(0,14,110,0.3));/* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,14,110,1), rgba(0,14,110,0.3));/* Standard syntax */
+  position: relative;
+}
+
+.location-percentage-text {
+  text-align:center;
+  color:white;
+  position: relative;
+  padding-top:60px;
+}
+
+
+@media (max-width: 499px) {   /* Small Screens */
+  .location-percentage-text .name {font-size:7vw;}
+  .location-percentage-text .percentage {font-size:9vw;}
+}
+@media (min-width: 500px) and (max-width: 799px) {  /* Not Small Screens */
+  .location-percentage-text .name {font-size:6vw;}
+  .location-percentage-text .percentage {font-size:7vw;}
+}
+@media (min-width: 800px) {  /* 800px+ Screens */
+  .location-percentage-text .name {font-size:50px;}
+  .location-percentage-text .percentage {font-size:60px;}
+}
+
+@-webkit-keyframes pulse {
+  0% { background-color: #000C6F }
+  50% { background-color:rgba(100,200,240,0.5) }
+  100% { background-color: #000C6F }
+}
+
+.packd-is-live-container  {
+  position:absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: white;
+  overflow: auto;
+  width: 60px;
+}
+
+.packd-is-live-container .packd-is-live {
+  font-size:15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom-section {
+  background-color:white;
+  padding:50px;
+}
+
+.hours {
+  font-size:16px;
+}
+
+.open-now {
+  font-size:20px;
+  color:gray;
+}
+
+.graph-missing-text {
+  width:100%;
+  height:250px;
+  padding:85px;
+  display:none;
+  font-size:20px;
+}
+
+.facebook-like-section {
+  font-size:16px;
+}
+
+.graph {
+  width:100%;
+  position: relative;
+}
+.graph-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.graph-mask-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:none;
+  background:rgba(255,255,255,0.5);
+  z-index: 10;
+}
+
+.graph-mask-spinner {
+  width: 80px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+
+.graph-mask-spinner img {
+  width:100%;
+}
+.packd-is-live-dot {
+    display: inline-block;
+    vertical-align: top;
+    animation: pulse 2s infinite;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.white {
+  color:white;
+}
+.machine-learned-label {
+    font-size: 14px;
+}
+
+.machine-learned-help {
+    font-size: 12px;
+}

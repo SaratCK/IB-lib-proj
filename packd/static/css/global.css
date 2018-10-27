@@ -1,0 +1,118 @@
+body {
+  background-size:cover;
+  font-family:'Montserrat','helvetica neue';
+  color:#000C6F;
+}
+
+html, body {margin:0;padding:0;height:100%}
+
+.full-page-container {
+  height:100%;
+  height: auto;
+  min-height: 100%;
+  padding-bottom:80px;
+}
+
+.footer-section {
+  clear:both;
+  background-color:white;
+  position:relative;
+  height:80px;
+  margin:auto;
+  margin-top:-80px;
+  max-width:800px;
+  width:100%;
+}
+
+.footer-item {
+  text-align:center;
+  background-color:#64c8f0;
+  color:white;
+  padding-top:25px;
+  height:100%;
+}
+
+.footer-item:hover {
+  background-color:#000C6F;
+}
+
+.row { /*cancelling out bootstrap row default*/
+  margin:0;
+}
+
+.background-image {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:-20;
+  min-height:100%;
+  min-width:1024px;
+  height:auto;
+  width:100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.logo img {
+  display:inline-block;
+  width:200px;
+  max-width:100%;
+}
+
+.logo {
+  padding:10px;
+  text-align:center;
+  width:100%;
+  max-width:800px;
+  margin:auto;
+}
+
+.logo-text {
+  display:block;
+  color:white;
+  font-size:30px;
+}
+
+.title {
+  color:white;
+  text-align:center;
+  font-size:100px;
+  width:100%;
+  max-width:800px;
+  margin:50px auto;
+}
+
+.content-space {
+  background-color:white;
+  width:100%;
+  max-width:800px;
+  padding:50px;
+  margin:auto;
+  margin-bottom:50px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+  width:360px;
+  height:250px;
+  margin:50px auto;
+  text-align:center;
+  background:#ecf0f1;
+  padding:40px;
+  -webkit-border-radius:20px 0 0 0;
+  -moz-border-radius:20px 0 0 0;
+  border-radius:20px 0 0 0;
+  -webkit-box-shadow: 0 1px 0 #ad392d, inset 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 #ad392d, inset 0 1px 0 white;
+  box-shadow: 0 1 0 #ad392d, inset 0 1px 0 white;
+  box-shadow: 20px 20px 20px;
+}

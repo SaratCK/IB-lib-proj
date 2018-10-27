@@ -1,0 +1,154 @@
+<html>
+<head>
+    <title>Packd</title>
+    <!-- SETTINGS FROM BOOTSTRAP TEMPLATE -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/css/global.css" rel="stylesheet">
+    <link href="../../static/css/app-location.css" rel="stylesheet">
+    <link href="../../static/css/app-location-list.css" rel="stylesheet">
+    <!-- JS LIBRARIES -->
+    <script src="../../static/js/jquery-2.1.4.min.js"></script>
+    <script src="../../static/js/bootstrap.min.js"></script>
+    <script src="../../static/js/bootbox.min.js"></script>
+    <!-- CHART.JS -->
+    <script src="../../static/js/Chart.min.js"></script>
+    <!-- WEBAPP SPECIAL JS -->
+    <script src="../../static/js/processHoursInput.js"></script>
+    <script src="../../static/js/app.min.js"></script>
+    <!--<script src="/static/js/app.js"></script>-->
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../../static/img/favicon_shadow.png.jpeg" type="image/x-icon">
+    <!-- MONTSERRAT FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!-- Mobile Site App Links -->
+    <meta name="apple-itunes-app" content="app-id=1024333170">
+    <meta name="google-play-app" content="app-id=com.packd.packd">
+</head>
+<body>
+    <!-- <div class="alert alert-danger">Campus WiFi network is down and counts are not up to date. Trend data is still accurate. As soon as AirBears2 is fixed, counts will start working again. We apologize for the inconvenience.</div> -->
+    <div class="full-page-container">
+      <img class="background-image" src="../../static/img/packd_bg.jpg">
+      <div class="logo">
+        <a href="http://packd.org/"><img src="../../static/img/packd_full_white.png">
+        <a href="../index.html"><div class="logo-text">Web App</div></a>
+    </div>
+
+<div class="app-space">
+  <div class="location-percentage">
+    <img class="location-image" src="../../static/img/location-images/loc-page-18.jpg">
+    <div class="location-percentage-text">
+      <div class="name">MLK Lower Study Area</div>
+      <div class="percentage">28%</div>
+    </div>
+    <div class="packd-is-live-container">
+      <div class="packd-is-live"><a href="http://packd.org/what-is-packd/" target="_blank" class="white">Live</a></div>
+      <div class="packd-is-live-dot"></div>
+    </div>
+  </div>
+  <div class="bottom-section container-fluid">
+    <div class="row">
+      <div class="hours-info col-sm-6">
+        <div class="hours"></div>
+        <div class="open-now"></div>
+      </div>
+      <div class="col-sm-6">
+        <div class="pull-right facebook-like-section">
+          <div>Like us on Facebook!</div>
+          <div class="fb-like" data-href="http://facebook.com/packdapp" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+      </div>
+    </div>
+    <div class="graph text-center">
+      <div class="graph-mask">
+          <div class="graph-mask-background"></div>
+          <div class="graph-mask-spinner"><img src="../../static/img/spinner-squares.svg" class="img-scaled"></div>
+      </div>
+      <hr>
+      <div class="btn-group" role="group" aria-label="...">
+        <button class="btn btn-default prediction-btn" id="sun">Sunday</button>
+        <button class="btn btn-default prediction-btn" id="mon">Monday</button>
+        <button class="btn btn-default prediction-btn" id="tues">Tuesday</button>
+        <button class="btn btn-default prediction-btn" id="wed">Wednesday</button>
+        <button class="btn btn-default prediction-btn" id="thurs">Thursday</button>
+        <button class="btn btn-default prediction-btn" id="fri">Friday</button>
+        <button class="btn btn-default prediction-btn" id="sat">Saturday</button>
+      </div>
+      <h3 style="text-align:center" id="trend-day-text">Saturday Trend</h3>
+      <h4 style="text-align:center; color:gray;">Prediction based on past data.</h4>
+      <div class="graph-missing-text well" style="display:none">Sorry, we don't yet have enough information to generate an average "expected" day.</div>
+      <canvas id="myChart" style="width:100%;height:250px;"></canvas>
+        
+    </div>
+  </div>
+  <div class="hidden" id="location-id">18</div>
+</div>
+
+<script>
+//////////////// Open Hours /////////////
+/* jshint ignore:start */
+function openHours() {
+    if (!isOpen({"Monday": ["07:00:00", "00:00:00"], "Tuesday": ["07:00:00", "00:00:00"], "Friday": ["07:00:00", "00:00:00"], "Wednesday": ["07:00:00", "00:00:00"], "Thursday": ["07:00:00", "00:00:00"], "Sunday": ["07:00:00", "00:00:00"], "Saturday": ["07:00:00", "00:00:00"]})) {
+        $('.percentage').html('Closed');
+    }
+    $('.hours').html('Hours: ' + todaysHoursNicely({"Monday": ["07:00:00", "00:00:00"], "Tuesday": ["07:00:00", "00:00:00"], "Friday": ["07:00:00", "00:00:00"], "Wednesday": ["07:00:00", "00:00:00"], "Thursday": ["07:00:00", "00:00:00"], "Sunday": ["07:00:00", "00:00:00"], "Saturday": ["07:00:00", "00:00:00"]}))
+    $('.open-now').html(openMessage({"Monday": ["07:00:00", "00:00:00"], "Tuesday": ["07:00:00", "00:00:00"], "Friday": ["07:00:00", "00:00:00"], "Wednesday": ["07:00:00", "00:00:00"], "Thursday": ["07:00:00", "00:00:00"], "Sunday": ["07:00:00", "00:00:00"], "Saturday": ["07:00:00", "00:00:00"]}))
+}
+var day_values = {
+  graph_percents:['0', '2', '6', '10', '13', '27', '31', '31', '32', '40', '27', '20', '20', '19', '13', '1', '1'],
+  graph_date_times:['07:00AM', '08:00AM', '09:00AM', '10:00AM', '11:00AM', '12:00PM', '01:00PM', '02:00PM', '03:00PM', '04:00PM', '05:00PM', '06:00PM', '07:00PM', '08:00PM', '09:00PM', '10:00PM', '11:00PM']
+}
+renderChart(day_values); // defined in app.js
+$(document).ready(openHours);
+/* jshint ignore:end */
+</script>
+
+</div> <!-- this is the full-page-container. It's necessary for the sticky footer http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/ -->
+
+<div class="hidden" id="csrf-token"><input type='hidden' name='csrfmiddlewaretoken' value='v1Zbdu0lVeYAFxdmOUFPhn3g2TB2Sbhv' /></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66353203-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1535854626680069";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- This is for the mobile app download banners -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<div class="footer-section">
+  <div class="row">
+    <a href="http://packd.org/">
+      <div class="col-sm-4 footer-item">
+        Get the App!
+      </div>
+    </a>
+    <a href="http://packd.org#how-it-works">
+      <div class="col-sm-4 footer-item">
+        What is Packd?
+      </div>
+    </a>
+    <a href="http://packd.org#contact">
+      <div class="col-sm-4 footer-item">
+        Contact Us
+      </div>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
