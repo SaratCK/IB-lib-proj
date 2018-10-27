@@ -17,7 +17,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -62,7 +62,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -107,7 +107,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -152,7 +152,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -197,7 +197,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -242,7 +242,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -287,7 +287,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -332,7 +332,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ], 
       "weekly_by_appointment": [
@@ -377,7 +377,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -422,7 +422,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ], 
       "weekly_by_appointment": [
@@ -467,7 +467,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -512,7 +512,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -598,7 +598,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -728,7 +728,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -773,7 +773,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -818,7 +818,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -863,7 +863,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -908,7 +908,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -953,7 +953,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -998,7 +998,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1043,7 +1043,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1130,7 +1130,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1175,7 +1175,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1220,7 +1220,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1310,7 +1310,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1355,7 +1355,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1400,7 +1400,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1445,7 +1445,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1490,7 +1490,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1535,7 +1535,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ], 
       "weekly_by_appointment": [
@@ -1580,7 +1580,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1625,7 +1625,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1670,7 +1670,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1715,7 +1715,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
@@ -1760,7 +1760,7 @@ $json = <<<EOD
         "food",
         "nap",
         "room",
-        "noise"
+        "noise",
         "utilities"
 	   ],
       "weekly_by_appointment": [
