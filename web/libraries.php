@@ -18,7 +18,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -63,7 +62,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -108,7 +106,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -153,7 +150,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -198,7 +194,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -243,7 +238,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -288,7 +282,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -333,8 +326,7 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
-	   ], 
+	   ],
       "weekly_by_appointment": [
         false, 
         false, 
@@ -378,7 +370,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -423,8 +414,7 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
-	   ], 
+	   ],
       "weekly_by_appointment": [
         false, 
         false, 
@@ -468,7 +458,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -513,7 +502,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -599,7 +587,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -729,7 +716,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -774,7 +760,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -819,7 +804,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -864,7 +848,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -909,7 +892,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         true, 
@@ -954,7 +936,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -999,7 +980,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1044,7 +1024,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1131,7 +1110,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         true, 
@@ -1176,7 +1154,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1221,7 +1198,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1311,7 +1287,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1356,7 +1331,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1401,7 +1375,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1446,7 +1419,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1491,7 +1463,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1536,8 +1507,7 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
-	   ], 
+	   ],
       "weekly_by_appointment": [
         false, 
         false, 
@@ -1581,7 +1551,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1626,7 +1595,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1671,7 +1639,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1716,7 +1683,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
@@ -1761,7 +1727,6 @@ $json = <<<EOD
         "nap",
         "room",
         "noise",
-        "utilities"
 	   ],
       "weekly_by_appointment": [
         false, 
